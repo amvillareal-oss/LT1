@@ -1,16 +1,16 @@
 # Project title: calculating information about a garden based on its radius
-# Description: This program asks for the radius and calculates the area, circumference, quare root of the calculated area, area rounded down, and the area rounded up of the garden.
+## Description: This program asks for the radius and calculates the area, circumference, quare root of the calculated area, area rounded down, and the area rounded up of the garden.
 
 
 # Import the math library
 import math
 
-# Ask the user for the radius(input)
+## Ask the user for the radius(input)
 
 radius = int(input("Enter the radius of the garden in meters:"))
 
 
-# Perform the required calculations
+## Perform the required calculations
 
 
 area = math.pi * math.pow(radius, 2)
@@ -20,7 +20,7 @@ areaRoundedDown = math.floor(area)
 areaRoundedUp = math.ceil(area)
 
 
-# Display the results(output)
+## Display the results(output)
 
 print(f"Area of the garden: {area:.2f} square meters")
 print(f"Circumference of the garden: {circumference:.2f} meters")
@@ -36,7 +36,7 @@ print(f"Area rounded up: {areaRoundedUp} square meters")
 ## Data representation: They are represented by numbers
 ## Algorithm Development: 
 
-## Sample Output: 
+# Sample Output: 
 ##  Enter the radius of the garden in meters:5
 ## Area of the garden: 78.54 square meters
 ## Circumference of the garden: -31.42 square meters
