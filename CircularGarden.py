@@ -9,10 +9,15 @@ radius = int(input("Enter the radius of the garden in meters:"))
 
 # Perform the required calculations
 
+## Calculate the area
 area = math.pi * math.pow(radius, 2)
+## Calculate the circumference
 circumference = 2 * math.pi * radius
+## Calculate the square root
 areaSquareRoot = math.sqrt(area)
+## Calculate rounded up
 areaRoundedDown = math.floor(area)
+## Calculate rounded up
 areaRoundedUp = math.ceil(area)
 
 # Display the results
