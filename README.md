@@ -7,7 +7,7 @@ import math
 
 # Ask the user for the radius(input)
 
-radius =- int(input("Enter the radius of the garden in meters:"))
+radius = int(input("Enter the radius of the garden in meters:"))
 
 
 # Perform the required calculations
@@ -22,11 +22,11 @@ areaRoundedUp = math.ceil(area)
 
 # Display the results(output)
 
-print(f"Area of the garden: {area:.2f}, square meters")
-print(f"Circumference of the garden: {circumference:.2f}, square meters")
-print(f"Square root of the area: {areaSquareRoot:.2f} , square meters")
-print(f"Area rounded down: {areaRoundedDown}, square meters")
-print(f"Area rounded up: {areaRoundedUp}, square meters")
+print(f"Area of the garden: {area:.2f} square meters")
+print(f"Circumference of the garden: {circumference:.2f} meters")
+print(f"Square root of the area: {areaSquareRoot:.2f} ")
+print(f"Area rounded down: {areaRoundedDown} square meters")
+print(f"Area rounded up: {areaRoundedUp} square meters")
 
 
 #  Computational Thinking
@@ -37,6 +37,12 @@ print(f"Area rounded up: {areaRoundedUp}, square meters")
 ## Algorithm Development: 
 
 ## Sample Output: 
+##  Enter the radius of the garden in meters:5
+## Area of the garden: 78.54 square meters
+## Circumference of the garden: -31.42 square meters
+## Square root of the area: 8.86 square meters
+## Area rounded down: 78 square meters
+## Area rounded up: 79 square meters
 
 
 # Author: Arrhiana Kei M. Villareal
