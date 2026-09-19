@@ -36,5 +36,8 @@ print(f"Area rounded up: {areaRoundedUp}, square meters")
 ## Data representation: They are represented by numbers
 ## Algorithm Development: 
 
+## Sample Output: 
+
+
 # Author: Arrhiana Kei M. Villareal
-# 
+# Section: Adelfa
